@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multi-Paradigm Ambient Air Quality Forecasting & Telemetric Nowcasting System
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -340,3 +341,6 @@ If you use this codebase, models, or benchmarks in your research or coursework, 
 This project is licensed under the **MIT License** - see the [`LICENSE`](LICENSE) file for details.
 
 Developed with ❤️ by **Aman Kumar Ranjan (23010301)** for **CSIR - Central Building Research Institute (CBRI)**.
+=======
+# csir-cbri-air-quality
+>>>>>>> 753a00432f6d99d329a1fef868b1303a761c3ac4
