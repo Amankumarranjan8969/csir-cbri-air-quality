@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, system architecture, or benchmarks in your research, please cite it as below."
+authors:
+  - family-names: "Ranjan"
+    given-names: "Aman Kumar"
+    affiliation: "National Institute of Technology / CSIR-Central Building Research Institute (CBRI)"
+    orcid: "https://orcid.org/0009-0000-0000-0000"
+title: "Multi-Paradigm Ambient Air Quality Modeling & Telemetric Nowcasting System Across Indian Megacities"
+version: 2.1.0
+date-released: 2026-10-25
+url: "https://github.com/amankranjan/csir-cbri-air-quality"
+keywords:
+  - "ambient-air-quality"
+  - "pm25-forecasting"
+  - "telemetric-nowcasting"
+  - "deep-learning"
+  - "optuna-smbo"
+  - "sarimax-catboost-hybrid"
+  - "superblend-stacker"
+  - "conformal-prediction"
+  - "csir-cbri"
+  - "cpcb-india"

@@ -1,0 +1,39 @@
+data:
+  raw_path: "combined_air_quality_2017_2024.csv"
+  processed_dir: "data/processed"
+  target_col: "PM2_5"
+  time_col: "Timestamp"
+  drop_cols:
+    - "O_Xylene"
+    - "Eth_Benzene"
+    - "MP_Xylene"
+    - "O Xylene (µg/m³)"
+    - "Eth-Benzene (µg/m³)"
+    - "MP-Xylene (µg/m³)"
+
+splits:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+features:
+  min_corr_threshold: 0.10
+  lag_days: [1, 2, 3, 7]
+  rolling_windows: [7, 14, 30]
+  outlier_threshold: 1.5
+
+training:
+  random_seed: 42
+  early_stopping_rounds: 50
+  dl_batch_size: 32
+  dl_epochs: 75
+  dl_lr: 0.001
+  dl_hidden_dim: 128
+
+forecasting:
+  horizons: [1, 7, 30]
+  confidence_level: 0.95
+
+paths:
+  models_dir: "models/saved_models_v2"
+  reports_dir: "reports"

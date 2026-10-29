@@ -1,0 +1,2 @@
+Timestamp,PM2.5 (µg/m³),PM10 (µg/m³),NO (µg/m³),NO2 (µg/m³),NOx (ppb),NH3 (µg/m³),SO2 (µg/m³),CO (mg/m³),Ozone (µg/m³),Benzene (µg/m³),Toluene (µg/m³),Xylene (µg/m³),O Xylene (µg/m³),Eth-Benzene (µg/m³),MP-Xylene (µg/m³),AT (°C),RH (%),WS (m/s),WD (deg),RF (mm),TOT-RF (mm),SR (W/mt2),BP (mmHg),VWS (m/s),Year,Month,Day,AQI
+,35.07,59.57,3.42,16.84,11.47,4.7,27.11,1.35,66.21,3.58,8.15,2.51,,,,26.18,81.56,1.79,293.21,0.09,7.5,72.09,735.26,0.08,2017,7,1,86

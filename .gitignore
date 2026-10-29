@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Machine Learning & Boosting Training Caches
+catboost_info/
+wandb/
+lightning_logs/
+
+# Development Scratch & Local Test Scripts
+scratch/
+scratch/*
+
+# Reports Directory (Excluded per project instructions)
+reports/
+reports/*
+*.docx
+*.doc
+
+# Large Model Binary Weights (>50MB GitHub file limit safety)
+models/saved_models/*.joblib
+models/saved_models/*.pkl
+models/saved_models/*.pth
+models/saved_models_v2/*.joblib
+models/saved_models_v2/*.pkl
+models/saved_models_v2/*.pth
+!models/**/.gitkeep
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+reports/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
