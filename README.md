@@ -282,32 +282,7 @@ streamlit run app.py
 
 ---
 
-## 📤 Step-by-Step GitHub Upload Guide
 
-To upload this repository to your GitHub account:
-
-```bash
-# 1. Initialize git in the project root
-git init
-
-# 2. Add all files (respects .gitignore: reports and caches are excluded)
-git add .
-
-# 3. Check status to confirm reports/ is excluded
-git status
-
-# 4. Create initial commit
-git commit -m "Initial commit: CSIR-CBRI Multi-City Air Quality Forecasting System"
-
-# 5. Set default branch to main
-git branch -M main
-
-# 6. Add your remote repository URL (create an empty repo on github.com first)
-git remote add origin https://github.com/<your-username>/csir-cbri-air-quality.git
-
-# 7. Push to GitHub
-git push -u origin main
-```
 
 ---
 
