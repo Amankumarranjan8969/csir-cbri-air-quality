@@ -21,7 +21,6 @@ Research-grade, leakage-free ambient air quality modeling, 24-hour causal foreca
 * **Department:** Department of Computer Science & Engineering
 * **Project Partner:** **CSIR - Central Building Research Institute (CBRI), Roorkee**
 * **Data Authority:** Central Pollution Control Board (CPCB), Ministry of Environment, Forest and Climate Change, Govt. of India
-* **Target Publication:** *Elsevier / ScienceDirect* (*Environmental Modelling & Software* / *Atmospheric Environment*)
 
 ---
 
