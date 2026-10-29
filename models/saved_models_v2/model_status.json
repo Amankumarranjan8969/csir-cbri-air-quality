@@ -1,0 +1,50 @@
+{
+  "Delhi": {
+    "test_r2": 0.9642,
+    "test_rmse": 16.51,
+    "test_mae": 10.74,
+    "q95_bound": 29.39,
+    "coverage_95": "94.0%",
+    "train_time_sec": 1.24
+  },
+  "Kolkata": {
+    "test_r2": 0.9711,
+    "test_rmse": 2.81,
+    "test_mae": 2.05,
+    "q95_bound": 17.36,
+    "coverage_95": "100.0%",
+    "train_time_sec": 0.74
+  },
+  "Mumbai": {
+    "test_r2": 0.8296,
+    "test_rmse": 4.43,
+    "test_mae": 2.9,
+    "q95_bound": 23.37,
+    "coverage_95": "100.0%",
+    "train_time_sec": 0.71
+  },
+  "Bengaluru": {
+    "test_r2": 0.8066,
+    "test_rmse": 4.93,
+    "test_mae": 3.96,
+    "q95_bound": 13.31,
+    "coverage_95": "100.0%",
+    "train_time_sec": 0.77
+  },
+  "Visakhapatnam": {
+    "test_r2": 0.8957,
+    "test_rmse": 7.14,
+    "test_mae": 4.91,
+    "q95_bound": 15.32,
+    "coverage_95": "97.3%",
+    "train_time_sec": 0.91
+  },
+  "Global (All Cities)": {
+    "test_r2": 0.8994,
+    "test_rmse": 9.21,
+    "test_mae": 6.28,
+    "q95_bound": 14.02,
+    "coverage_95": "92.3%",
+    "train_time_sec": 1.86
+  }
+}

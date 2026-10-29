@@ -218,6 +218,26 @@ csir-cbri-air-quality/
 
 ---
 
+## ⚡ One-Click Local Launcher (Windows & Cross-Platform)
+
+To re-train all models, update artifacts, run the test suite, and automatically launch the interactive dashboard in your browser with a single click:
+
+* **Windows Batch (One-Click):** Double-click [`run_pipeline.bat`](run_pipeline.bat) or run:
+  ```cmd
+  run_pipeline.bat
+  ```
+* **PowerShell:**
+  ```powershell
+  .\run_pipeline.ps1
+  ```
+* **Direct Python CLI:**
+  ```bash
+  python run_pipeline.py
+  streamlit run app.py
+  ```
+
+---
+
 ## 🚀 Quickstart & Installation
 
 ### 1. Clone the Repository
